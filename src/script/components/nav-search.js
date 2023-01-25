@@ -13,7 +13,7 @@ class NavSearch extends HTMLElement {
     }
 
     get value() {
-        return this.querySelector('#search-input').value;
+        return this.querySelector("#search-input").value;
     }
 
     render() {
@@ -35,8 +35,8 @@ class NavSearch extends HTMLElement {
             </nav>
         `;
 
-        this.querySelector('#search-input-button').addEventListener('click', this._click);
+        this.querySelector("#search-input-button").addEventListener("click", this._click);
     }
 }
 
-customElements.define('nav-search', NavSearch);
+customElements.define("nav-search", NavSearch);
