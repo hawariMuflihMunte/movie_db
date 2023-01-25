@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "semi": ["warn", "always"],
+        "quotes": ["warn", "double"]
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+    }
+}
