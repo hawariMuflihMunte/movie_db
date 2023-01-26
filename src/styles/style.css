@@ -5,3 +5,7 @@ i.bi {
 .icon-size-default {
     font-size: 14px !important;
 }
+
+textarea {
+    resize: none;
+}
