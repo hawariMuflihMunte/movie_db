@@ -92,9 +92,8 @@ function main() {
                                 <li class="uk-flex uk-flex-between"><span>Awards</span>${_detail.Awards}</li>
                                 <li class="uk-flex uk-flex-between"><span>Metascore</span>${_detail.Metascore}</li>
                                 <li class="uk-flex uk-flex-between"><span>imdbRating</span>${_detail.imdbRating}</li>
-                                <li class="uk-flex uk-flex-between"><span>Type</span>${_detail.Type}</li>
-                                <li class="uk-flex uk-flex-between"><span>totalSeasons</span>${_detail.totalSeasons}</li>
-                                <li class="uk-flex uk-flex-between"><span>Ratings</span>${_detail.Ratings.map(rating => `${rating.Source}: ${rating.Value}`)}</li>
+                                <li class="uk-flex uk-flex-between"><span>Type</span>${_detail.Type.toUpperCase()}</li>
+                                <li class="uk-flex uk-flex-between"><span>totalSeasons</span>${_detail.totalSeasons === undefined ? "N/A" : _detail.totalSeasons}</li>
                             </ul>
                             <textarea class="uk-textarea" disabled>${_detail.Plot}</textarea>
                         </div>
