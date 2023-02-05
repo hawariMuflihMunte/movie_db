@@ -15,9 +15,6 @@ import "./styles/style.css";
 // Bootstrap Icons
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-// Simple CSS Columns
-import "simple-css-columns/src/simple.css";
-
 import main from "./script/views/main.js";
 
 main();
